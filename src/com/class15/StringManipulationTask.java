@@ -9,7 +9,7 @@ public class StringManipulationTask {
 		System.out.println("please enter browser name");
 		String browser=scan.nextLine();
 		
-		switch(browser.toLowerCase()) {
+		switch(browser.toLowerCase()) {  // switch case only checks the equality if statement checks the condition
 		case "firefox":
 			System.out.println("execution be performed on "+browser);
 			break;

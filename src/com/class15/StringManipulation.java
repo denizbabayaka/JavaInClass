@@ -25,8 +25,8 @@ public class StringManipulation {
         boolean isEmpty=myString.isEmpty();
         System.out.println(isEmpty);
         
-        String myString1=null;//no value at all it is equal to 
-        // String myString1;
+        String myString1=null;//no value at all it is equal to  == String myString1;
+       
         //System.out.println(myString1.isEmpty());
         
         //how to verify existence of characters in the string
