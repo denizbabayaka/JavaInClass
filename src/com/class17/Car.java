@@ -4,6 +4,7 @@ public class Car {  // class is a blueprint /template to build objects
 // define attributes/features belong to
 	// the class car
 	// Class is logical entitiy whereas Object is physical entity (something you can touch and feel)
+	
 	String make, model, color;
 	int year, wheels, windows, speed;
 

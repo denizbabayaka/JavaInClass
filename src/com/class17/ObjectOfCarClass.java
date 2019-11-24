@@ -3,6 +3,11 @@ package com.class17;
 public class ObjectOfCarClass {
 
 	public static void main(String[] args) {
+		/* to create an object syntax is
+		 * ClassName variable=new ClassName();
+		 * Scanner scan=new Scanner(System.in);
+		 * String str=new String();
+		 */
 		
 		Car car1=new Car();
 		car1.make="Tesla";
