@@ -4,7 +4,10 @@ public class Employee {  // singlke base class
 	
 	
 	int salary;
-	 static String companyName;
+	protected int employeeId;
+	private int employeeSsn;
+	
+	public static String companyName;
 	
 	void work() {
 		System.out.println("I work in "+companyName+" company");

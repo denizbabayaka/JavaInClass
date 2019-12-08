@@ -28,7 +28,7 @@ public class Test {
 		parent.sing();
 		
 		Parent parent1=new Parent();
-			System.out.println(parent1.hairColor);
+		System.out.println(parent1.hairColor);
 		System.out.println(parent1.eyeColor);
 		System.out.println(Parent.race);
 		

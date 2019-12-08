@@ -5,8 +5,8 @@ public class ThisKeyword {
 	int a,b;
 	
 	public ThisKeyword(int a,int b) {
-		this.a=a;
-		this.b=b;
+		this.a=a;  // this.variable --> we are reffering to the instance variables
+		this.b=b;  // to differentiate between local var. and instance var. with same name 
 	}
 	public ThisKeyword() {
 		System.out.println("I am non argument constructor");
@@ -25,13 +25,14 @@ public class ThisKeyword {
         public void sayAandB() {  // calling method inside the method
         	this.sayA();
         	sayB(); // compiler adds this automatically --> this.sayB();
+        	
         		
         }
         
         public static void main(String[] args) {
-			ThisKeyword obj=new ThisKeyword(7, 5);
-			obj.sum(5, 5);
-			ThisKeyword obj1=new ThisKeyword(20, 20);
+			ThisKeyword obj=new ThisKeyword(5, 10);
+			obj.sum(10, 20);
+			ThisKeyword obj1=new ThisKeyword();			
 			obj1.sum(100, 200);
 			obj.sayA();
 			obj.sayB();

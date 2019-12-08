@@ -1,6 +1,7 @@
 package com.class24;
 
-public class Child1 extends Parent {
+public class Child1 extends Parent { // with extends keyword we can accsess to all properties and behaviours
+	//of Parent class
 	
 	
 
