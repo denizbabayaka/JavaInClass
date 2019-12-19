@@ -12,6 +12,7 @@ public class WebDriverTest {
 			display.closeBrowser();
 			display.maximizeWindow();
 			display.findElement();
+			display.takesScreen();
 		}
 
 	}

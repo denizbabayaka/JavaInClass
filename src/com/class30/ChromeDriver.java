@@ -1,7 +1,7 @@
 package com.class30;
 
 
-public class ChromeDriver implements WebDriver {
+public class ChromeDriver extends Browser implements WebDriver {
 
 	@Override
 	public void openBrowser() {
@@ -24,6 +24,18 @@ public class ChromeDriver implements WebDriver {
 	@Override
 	public void findElement() {
 		System.out.println("You can find element at FireFox Driver");
+		
+	}
+
+	@Override
+	public void refresh() {
+		System.out.println("refresh Chrome Browser");
+		
+	}
+
+	@Override
+	public void takesScreen() {
+		System.out.println("Take screenshot in Chrome Browser");
 		
 	}
 

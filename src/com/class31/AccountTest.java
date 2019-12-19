@@ -13,7 +13,7 @@ public class AccountTest {
 		System.out.println(myBalance);
 		
 		int num=123;
-		String.valueOf(num);// 
+		String.valueOf(num);// converts given value  to the string 
 	}
 
 }
