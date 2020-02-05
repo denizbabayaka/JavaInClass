@@ -3,7 +3,6 @@ package com.class36;
 import java.util.*;
 import java.util.Map.Entry;
 
-
 public class Task2 {
 //	Create a Map from array of cities that will sort keys in alphabetical order. As a key store the 
 //	name of the city and as a value store the length of the city (Example: Paris=5, Moscow =6, Washington DC=13 etc..). 
