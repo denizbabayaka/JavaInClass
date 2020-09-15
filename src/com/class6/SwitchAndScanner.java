@@ -24,9 +24,8 @@ public static void main(String[] args) {
 	      }else{
 	        output="Boy";
 	      }
+
 	      
-	      
-	      }else{
 	        if(age>25){
 	          output= "Woman";
 	          
@@ -36,12 +35,12 @@ public static void main(String[] args) {
 	        }
 	        System.out.println(output);
 	        
-	      }
 	      
-	     } 
-	}
+	      
+	     
+	
 	    
-	}
+	
 	      
 
 	    
